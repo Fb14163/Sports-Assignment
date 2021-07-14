@@ -146,7 +146,7 @@ footer{
 }
 
  /* Second-Area  */
- 
+
 .scnd-area{
     margin-top: 15px;
     display: flex;
@@ -201,11 +201,14 @@ footer{
 
 
 @media only screen and (max-width:688px) {
-    .first{
-        color:limegreen
+    .header{
+        flex-direction: column;
+       
     }
-    .main{
+    .player-cards{
         width: 100%;
-        -ms-flex-direction: column;
+        flex-direction: column;
+        grid-template-columns: repeat(2,1fr);
     }
+
 }
